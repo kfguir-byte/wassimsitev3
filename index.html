@@ -14,16 +14,36 @@
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">WASSIM.</div>
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#transformations">Transformations</a>
-            <a href="#guide">Fat Loss Guide</a>
+    <header class="site-top">
+        <nav class="navbar">
+            <div class="logo">WASSIM.</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#transformations">Transformations</a>
+                <a href="#guide">Fat Loss Guide</a>
+            </div>
+            <a href="https://calendly.com/wassimchouikh99/30min?utm_source=ig&utm_medium=social&utm_content=link_in_bio&month=2026-03" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Book Now</a>
+        </nav>
+        <div class="announcement-bar" role="region" aria-label="Site announcements">
+            <div class="announcement-bar__marquee">
+                <div class="announcement-bar__track" id="announcement-track">
+                    <div class="announcement-bar__run">
+                        <span class="announcement-bar__headline">Professional Coaching</span>
+                        <span class="announcement-bar__sep" aria-hidden="true">•</span>
+                        <span class="announcement-bar__promo">50% OFF E-BOOK</span>
+                        <span class="announcement-bar__sep" aria-hidden="true">•</span>
+                    </div>
+                    <div class="announcement-bar__run" aria-hidden="true">
+                        <span class="announcement-bar__headline">Professional Coaching</span>
+                        <span class="announcement-bar__sep" aria-hidden="true">•</span>
+                        <span class="announcement-bar__promo">50% OFF E-BOOK</span>
+                        <span class="announcement-bar__sep" aria-hidden="true">•</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <a href="https://calendly.com/wassimchouikh99/30min?utm_source=ig&utm_medium=social&utm_content=link_in_bio&month=2026-03" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Book Now</a>
-    </nav>
+    </header>
 
     <header class="hero" id="home">
         <div class="hero-content">
@@ -88,22 +108,87 @@
         <div class="transformations-container">
             <h3 class="subsection-title">Before & After</h3>
             <div class="image-grid">
-                <div class="media-card">
-                    <img src="assets/transformation1.jpg" alt="Client Transformation Before and After" class="media-img">
+                <div class="media-card transformation-card">
+                    <div class="transformation-media-wrap">
+                        <img src="assets/transformation1.jpg" alt="Neev transformation before and after" class="media-img">
+                    </div>
+                    <div class="transformation-story is-collapsed" data-transformation-story>
+                        <div class="transformation-story-content">
+                            <p>This is Neev.</p>
+                            <p>He started at 29.3% body fat, 97.3 kg.<br>Busy business owner.<br>Traveling between Dubai and the UK.<br>No time to live in the gym.<br>No interest in eating like a bodybuilder.</p>
+                            <p><strong>Today:</strong><br>16% body fat. 75 kg.<br>And we’re still moving toward 10% and 69 kg.</p>
+                            <p>No extreme dieting.<br>No 2-hour workouts.<br>No “gym is your life” nonsense.</p>
+                            <p>We trained 1–2 times per week.<br>We adapted training around business, travel, and real life.<br>And even when Neev was in the UK, the training never stopped. I guided him remotely, adjusted everything, and kept momentum.</p>
+                        </div>
+                        <button type="button" class="transformation-read-more-btn" aria-expanded="false" hidden>Read more</button>
+                    </div>
                 </div>
-                <div class="media-card">
-                    <img src="assets/transformation2.jpg" alt="Client Transformation Before and After" class="media-img">
+                <div class="media-card transformation-card">
+                    <div class="transformation-media-wrap">
+                        <img src="assets/transformation2.jpg" alt="Alex transformation before and after" class="media-img">
+                    </div>
+                    <div class="transformation-story is-collapsed" data-transformation-story>
+                        <div class="transformation-story-content">
+                            <p>When Alex started working with me, she wasn’t overweight.</p>
+                            <p>She was already training.<br>She was active.<br>She was healthy.</p>
+                            <p>But deep down she knew something…</p>
+                            <p>She knew she wasn’t looking at the best version of herself yet.</p>
+                            <p>And that feeling matters.</p>
+                            <p>Because body fat percentage is not just a number.</p>
+                            <p>It’s the feeling when you look in the mirror in the morning.<br>It’s the confidence when you wear your favorite clothes.<br>It’s how your jeans fit your waist and your hips.<br>It’s how you walk into a room.<br>It’s how you carry yourself.<br>It’s the quiet confidence of knowing you did the work.</p>
+                            <p>Some people think transformations are only for people who are overweight.</p>
+                            <p>That’s not true.</p>
+                            <p>Sometimes the real transformation is for people who are already doing “okay”…<br>…but refuse to settle for okay.</p>
+                            <p>Alex decided she wanted more from herself.</p>
+                            <p>More discipline.<br>More structure.<br>More precision.<br>More results.</p>
+                            <p>And the result?</p>
+                            <p>28% body fat → 23.4% body fat.</p>
+                            <p>A stronger body.<br>A leaner physique.<br>And most importantly…</p>
+                            <p>A version of herself she feels proud of when she looks in the mirror.</p>
+                        </div>
+                        <button type="button" class="transformation-read-more-btn" aria-expanded="false" hidden>Read more</button>
+                    </div>
                 </div>
             </div>
             
             <h3 class="subsection-title">Client Experiences</h3>
-            <div class="video-grid">
-                <div class="media-card video-card">
-                    <video src="assets/vid.mp4" controls preload="metadata"></video>
-                </div>
-                <div class="media-card video-card">
-                    <video src="assets/transformation3.mp4" controls preload="metadata"></video>
-                </div>
+            <div class="video-showcase" aria-label="Client experience videos">
+                <article class="video-showcase-item video-showcase-item--primary">
+                    <div class="video-showcase-head">
+                        <span class="video-showcase-index" aria-hidden="true">01</span>
+                        <div class="video-showcase-head-text">
+                            <span class="video-showcase-eyebrow">Hear it firsthand</span>
+                            <h4 class="video-showcase-title">Client story</h4>
+                        </div>
+                    </div>
+                    <div class="video-frame">
+                        <span class="video-frame-corner video-frame-corner--tl" aria-hidden="true"></span>
+                        <span class="video-frame-corner video-frame-corner--tr" aria-hidden="true"></span>
+                        <span class="video-frame-corner video-frame-corner--bl" aria-hidden="true"></span>
+                        <span class="video-frame-corner video-frame-corner--br" aria-hidden="true"></span>
+                        <div class="video-frame-screen">
+                            <video src="assets/vid.mp4" controls preload="metadata" playsinline></video>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-showcase-item video-showcase-item--secondary">
+                    <div class="video-showcase-head">
+                        <span class="video-showcase-index" aria-hidden="true">02</span>
+                        <div class="video-showcase-head-text">
+                            <span class="video-showcase-eyebrow">In their words</span>
+                            <h4 class="video-showcase-title">Transformation</h4>
+                        </div>
+                    </div>
+                    <div class="video-frame video-frame--accent">
+                        <span class="video-frame-corner video-frame-corner--tl" aria-hidden="true"></span>
+                        <span class="video-frame-corner video-frame-corner--tr" aria-hidden="true"></span>
+                        <span class="video-frame-corner video-frame-corner--bl" aria-hidden="true"></span>
+                        <span class="video-frame-corner video-frame-corner--br" aria-hidden="true"></span>
+                        <div class="video-frame-screen">
+                            <video src="assets/transformation3.mp4" controls preload="metadata" playsinline></video>
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
