@@ -16,18 +16,25 @@
 
     <header class="site-top">
         <nav class="navbar">
-            <div class="logo">WASSIM.</div>
-            <div class="nav-links">
-                <a href="#about">About</a>
+            <a href="#home" class="logo">WASSIM.</a>
+            <div class="nav-links" id="nav-menu">
+                <a href="#home">About</a>
                 <a href="#services">Services</a>
                 <a href="#transformations">Transformations</a>
                 <a href="#guide">Fat Loss Guide</a>
             </div>
-            <a href="https://calendly.com/wassimchouikh99/30min?utm_source=ig&utm_medium=social&utm_content=link_in_bio&month=2026-03" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Book Now</a>
+            <div class="navbar-end">
+                <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+                    <span class="nav-toggle-bar" aria-hidden="true"></span>
+                    <span class="nav-toggle-bar" aria-hidden="true"></span>
+                    <span class="nav-toggle-bar" aria-hidden="true"></span>
+                </button>
+                <a href="https://calendly.com/wassimchouikh99/30min?utm_source=ig&utm_medium=social&utm_content=link_in_bio&month=2026-03" class="btn btn-outline nav-book" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
         </nav>
         <div class="announcement-bar" role="region" aria-label="Site announcements">
             <div class="announcement-bar__marquee">
-                <div class="announcement-bar__track" id="announcement-track">
+                <div class="announcement-bar__track">
                     <div class="announcement-bar__run">
                         <span class="announcement-bar__headline">Professional Coaching</span>
                         <span class="announcement-bar__sep" aria-hidden="true">•</span>
